@@ -1,0 +1,10 @@
+-IC:\MinGW\lib\gcc\mingw32\5.1.0\include\c++
+-IC:\MinGW\lib\gcc\mingw32\5.1.0\include\c++\mingw32
+-IC:\MinGW\lib\gcc\mingw32\5.1.0\include\c++\backward
+-IC:\MinGW\lib\gcc\mingw32\5.1.0\include
+-IC:\MinGW\include
+-IC:\MinGW\lib\gcc\mingw32\5.1.0\include-fixed
+-IA:\workspace\CPP\Udemy_course\Section_6_challenge
+-std=c++11
+-target
+i686-pc-windows-gnu

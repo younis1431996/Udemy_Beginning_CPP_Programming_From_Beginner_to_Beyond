@@ -3,13 +3,13 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=First_Program
+ProjectName            :=Section_6_challenge
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
 WorkspacePath          :=A:/workspace/CPP/Udemy_course
-ProjectPath            :=A:/workspace/CPP/Udemy_course/First_Program
-IntermediateDirectory  :=../build-$(ConfigurationName)/First_Program
-OutDir                 :=../build-$(ConfigurationName)/First_Program
+ProjectPath            :=A:/workspace/CPP/Udemy_course/Section_6_challenge
+IntermediateDirectory  :=../build-$(ConfigurationName)/Section_6_challenge
+OutDir                 :=../build-$(ConfigurationName)/Section_6_challenge
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
@@ -52,7 +52,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := C:/MinGW/bin/ar.exe rcu
 CXX      := C:/MinGW/bin/g++.exe
 CC       := C:/MinGW/bin/gcc.exe
-CXXFLAGS := -std=c++17 -std=c++14 -Wall -g -O0 -Wall $(Preprocessors)
+CXXFLAGS := -std=c++17 -std=c++14 -std=c++11 -Wall -g -O0 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := C:/MinGW/bin/as.exe
@@ -62,7 +62,7 @@ AS       := C:/MinGW/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=../build-$(ConfigurationName)/First_Program/main.cpp$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Section_6_challenge/main.cpp$(ObjectSuffix) 
 
 
 
@@ -74,18 +74,18 @@ Objects=$(Objects0)
 .PHONY: all clean PreBuild PrePreBuild PostBuild MakeIntermediateDirs
 all: MakeIntermediateDirs $(OutputFile)
 
-$(OutputFile): ../build-$(ConfigurationName)/First_Program/.d $(Objects) 
-	@if not exist "..\build-$(ConfigurationName)\First_Program" mkdir "..\build-$(ConfigurationName)\First_Program"
+$(OutputFile): ../build-$(ConfigurationName)/Section_6_challenge/.d $(Objects) 
+	@if not exist "..\build-$(ConfigurationName)\Section_6_challenge" mkdir "..\build-$(ConfigurationName)\Section_6_challenge"
 	@echo "" > $(IntermediateDirectory)/.d
 	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@if not exist "..\build-$(ConfigurationName)\First_Program" mkdir "..\build-$(ConfigurationName)\First_Program"
+	@if not exist "..\build-$(ConfigurationName)\Section_6_challenge" mkdir "..\build-$(ConfigurationName)\Section_6_challenge"
 	@if not exist ""..\build-$(ConfigurationName)\bin"" mkdir ""..\build-$(ConfigurationName)\bin""
 
-../build-$(ConfigurationName)/First_Program/.d:
-	@if not exist "..\build-$(ConfigurationName)\First_Program" mkdir "..\build-$(ConfigurationName)\First_Program"
+../build-$(ConfigurationName)/Section_6_challenge/.d:
+	@if not exist "..\build-$(ConfigurationName)\Section_6_challenge" mkdir "..\build-$(ConfigurationName)\Section_6_challenge"
 
 PreBuild:
 
@@ -93,16 +93,16 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/First_Program/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/First_Program/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "A:/workspace/CPP/Udemy_course/First_Program/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/First_Program/main.cpp$(DependSuffix): main.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/First_Program/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/First_Program/main.cpp$(DependSuffix) -MM main.cpp
+../build-$(ConfigurationName)/Section_6_challenge/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/Section_6_challenge/main.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "A:/workspace/CPP/Udemy_course/Section_6_challenge/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Section_6_challenge/main.cpp$(DependSuffix): main.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Section_6_challenge/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Section_6_challenge/main.cpp$(DependSuffix) -MM main.cpp
 
-../build-$(ConfigurationName)/First_Program/main.cpp$(PreprocessSuffix): main.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/First_Program/main.cpp$(PreprocessSuffix) main.cpp
+../build-$(ConfigurationName)/Section_6_challenge/main.cpp$(PreprocessSuffix): main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Section_6_challenge/main.cpp$(PreprocessSuffix) main.cpp
 
 
--include ../build-$(ConfigurationName)/First_Program//*$(DependSuffix)
+-include ../build-$(ConfigurationName)/Section_6_challenge//*$(DependSuffix)
 ##
 ## Clean
 ##
