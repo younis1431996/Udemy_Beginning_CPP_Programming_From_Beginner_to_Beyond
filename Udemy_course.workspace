@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Workspace Name="Udemy_course" Database="" Version="10000">
+<CodeLite_Workspace Name="Udemy_course" Database="" Version="10000" SWTLW="Yes">
+  <WorkspaceParserMacros/>
+  <WorkspaceParserPaths/>
   <Project Name="First_Program" Path="First_Program/First_Program.project" Active="No"/>
-  <Project Name="Section_6_challenge" Path="Section_6_challenge/Section_6_challenge.project" Active="Yes"/>
+  <Project Name="Section_6_challenge" Path="Section_6_challenge/Section_6_challenge.project" Active="No"/>
+  <Project Name="Section_7_challenge" Path="Section_7_challenge/Section_7_challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="First_Program" ConfigName="Debug"/>
       <Project Name="Section_6_challenge" ConfigName="Debug"/>
+      <Project Name="Section_7_challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="First_Program" ConfigName="Release"/>
       <Project Name="Section_6_challenge" ConfigName="Release"/>
+      <Project Name="Section_7_challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
