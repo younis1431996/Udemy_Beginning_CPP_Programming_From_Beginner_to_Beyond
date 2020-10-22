@@ -4,9 +4,9 @@
   <wxString Value="A:\workspace\CPP\Udemy_course\Udemy_course.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="A:\workspace\CPP\Udemy_course\Section_7_challenge\main.cpp" Name="FileName"/>
+      <wxString Value="A:\workspace\CPP\Udemy_course\Section_8_challenge\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="18" Name="CurrentLine"/>
+      <int Value="4" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
